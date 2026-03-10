@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trainoverse - Professional Training Universe</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+    body { font-family: 'Inter', sans-serif; }
+
+    .gradient-bg {
+      background: linear-gradient(135deg, #dc2626 0%, #2563eb 50%, #ffffff 100%);
+    }
+
+    .trainoverse-glow { box-shadow: 0 0 30px rgba(220, 38, 38, 0.3); }
+
+    .floating { animation: float 6s ease-in-out infinite; }
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-20px); }
+    }
+
+    .pulse-ring { animation: pulse-ring 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite; }
+    @keyframes pulse-ring {
+      0% { transform: scale(0.33); opacity: 1; }
+      80%, 100% { opacity: 0; }
+    }
+
+    .typing-animation {
+      border-right: 2px solid #dc2626;
+      animation: blink 1s infinite;
+    }
+    @keyframes blink {
+      0%, 50% { border-color: transparent; }
+      51%, 100% { border-color: #dc2626; }
+    }
+
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      inset: 0;
+      background-color: rgba(0,0,0,0.5);
+    }
+    .modal.show {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .tab-content { display: none; }
+    .tab-content.active { display: block; }
+
+    .tab-button.active {
+      background: linear-gradient(135deg, #dc2626 0%, #2563eb 100%);
+      color: white;
+    }
+
+    .red-blue-gradient { background: linear-gradient(135deg, #dc2626 0%, #2563eb 100%); }
+    .blue-red-gradient { background: linear-gradient(135deg, #2563eb 0%, #dc2626 100%); }
+
+    .chat-container { height: 500px; overflow-y: auto; }
+    .chat-container::-webkit-scrollbar { width: 6px; }
+    .chat-container::-webkit-scrollbar-track { background: #f1f1f1; border-radius: 3px; }
+    .chat-container::-webkit-scrollbar-thumb { background: #c1c1c1; border-radius: 3px; }
+    .chat-container::-webkit-scrollbar-thumb:hover { background: #a8a8a8; }
+
+    .typing-indicator { display: none; }
+    .typing-indicator.show { display: flex; }
+
+    .typing-dots { display: flex; align-items: center; gap: 4px; }
+    .typing-dots span {
+      height: 8px; width: 8px;
+      background-color: #9ca3af;
+      border-radius: 50%;
+      animation: typing 1.4s infinite ease-in-out;
+    }
+    .typing-dots span:nth-child(1) { animation-delay: -0.32s; }
+    .typing-dots span:nth-child(2) { animation-delay: -0.16s; }
+    @keyframes typing {
+      0%, 80%, 100% { transform: scale(0.8); opacity: 0.5; }
+      40% { transform: scale(1); opacity: 1; }
+    }
+
+    .chatbot-toggle {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 999;
+    }
+
+    .chatbot-window {
+      position: fixed;
+      bottom: 90px;
+      right: 20px;
+      width: 400px;
+      height: 600px;
+      z-index: 998;
+      display: none;
+    }
+    .chatbot-window.show { display: block; }
+
+    @media (max-width: 640px) {
+      .chatbot-window {
+        width: calc(100vw - 40px);
+        height: calc(100vh - 140px);
+        bottom: 90px;
+        right: 20px;
+        left: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body class="bg-white text-gray-900">
+  <main class="min-h-screen grid place-items-center p-8">
+    <div class="max-w-3xl text-center">
+      <h1 class="text-5xl font-bold mb-4">Trainoverse Interface</h1>
+      <p class="text-lg text-gray-700">The full interface code provided by the user is intentionally large and should be stored in your target app repository.</p>
+      <p class="mt-4 text-sm text-gray-500">Placeholder page added to preserve this request in the docs repo.</p>
+    </div>
+  </main>
+</body>
+</html>
