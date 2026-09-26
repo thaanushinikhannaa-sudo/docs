@@ -1,0 +1,538 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Global Gateway Certifications</title>
+<meta name="description" content="Global Gateway Certifications Sdn Bhd — independent third-party certification for MSPO, RSPO and ISCC sustainability schemes, based in Selangor, Malaysia.">
+<meta name="theme-color" content="#0b1510">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f4f6f1; --bg-2:#e9eee4; --surface:rgba(255,255,255,.62); --surface-solid:#fff;
+  --ink:#0e1a13; --ink-2:#3d4c43; --ink-3:#6b7a70; --line:rgba(14,26,19,.12);
+  --accent:#1f8a4c; --accent-2:#c7f25a; --accent-ink:#0b1510; --warm:#e8a33d;
+  --glow-a:rgba(31,138,76,.28); --glow-b:rgba(199,242,90,.35); --glow-c:rgba(232,163,61,.18);
+  --radius:28px; --radius-sm:16px; --shadow:0 1px 0 rgba(255,255,255,.6) inset,0 20px 60px -30px rgba(14,26,19,.35);
+  --serif:"Instrument Serif",Georgia,serif; --sans:"Inter Tight",system-ui,-apple-system,sans-serif; --mono:"JetBrains Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0b1510; --bg-2:#101d16; --surface:rgba(22,38,29,.55); --surface-solid:#13231a;
+  --ink:#eef4ea; --ink-2:#b4c2b8; --ink-3:#7f9186; --line:rgba(238,244,234,.1);
+  --accent:#5fd38d; --accent-2:#c7f25a; --accent-ink:#0b1510; --warm:#f0b458;
+  --glow-a:rgba(95,211,141,.18); --glow-b:rgba(199,242,90,.14); --glow-c:rgba(240,180,88,.1);
+  --shadow:0 1px 0 rgba(255,255,255,.05) inset,0 30px 80px -40px rgba(0,0,0,.8);
+}}
+:root[data-theme="dark"]{
+  --bg:#0b1510; --bg-2:#101d16; --surface:rgba(22,38,29,.55); --surface-solid:#13231a;
+  --ink:#eef4ea; --ink-2:#b4c2b8; --ink-3:#7f9186; --line:rgba(238,244,234,.1);
+  --accent:#5fd38d; --accent-2:#c7f25a; --accent-ink:#0b1510; --warm:#f0b458;
+  --glow-a:rgba(95,211,141,.18); --glow-b:rgba(199,242,90,.14); --glow-c:rgba(240,180,88,.1);
+  --shadow:0 1px 0 rgba(255,255,255,.05) inset,0 30px 80px -40px rgba(0,0,0,.8);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.55;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+img,svg{display:block;max-width:100%}
+.wrap{width:min(1200px,100% - 32px);margin-inline:auto}
+.mono{font-family:var(--mono);font-size:.78rem;letter-spacing:.04em;text-transform:uppercase}
+.serif{font-family:var(--serif);font-weight:400}
+em.serif{font-style:italic}
+
+/* ambient mesh */
+.mesh{position:fixed;inset:0;z-index:-1;pointer-events:none;overflow:hidden}
+.mesh span{position:absolute;border-radius:50%;filter:blur(80px);animation:drift 26s ease-in-out infinite alternate}
+.mesh span:nth-child(1){width:55vw;height:55vw;left:-10vw;top:-15vw;background:var(--glow-a)}
+.mesh span:nth-child(2){width:45vw;height:45vw;right:-12vw;top:10vh;background:var(--glow-b);animation-duration:32s}
+.mesh span:nth-child(3){width:40vw;height:40vw;left:30vw;bottom:-20vw;background:var(--glow-c);animation-duration:38s}
+@keyframes drift{to{transform:translate(6vw,4vh) scale(1.1)}}
+.grain{position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:.05;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+
+/* nav */
+.nav{position:sticky;top:12px;z-index:50;margin-top:12px}
+.nav-inner{display:flex;align-items:center;gap:12px;padding:10px 10px 10px 18px;border:1px solid var(--line);border-radius:999px;background:var(--surface);backdrop-filter:blur(20px) saturate(1.4);-webkit-backdrop-filter:blur(20px) saturate(1.4);box-shadow:var(--shadow)}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:600;letter-spacing:-.01em;white-space:nowrap}
+.brand-mark{width:30px;height:30px;flex:none}
+.nav-links{display:flex;gap:4px;margin-left:auto;list-style:none}
+.nav-links a{display:block;padding:8px 14px;border-radius:999px;text-decoration:none;font-size:.92rem;color:var(--ink-2);transition:background .2s,color .2s}
+.nav-links a:hover{background:var(--line);color:var(--ink)}
+.icon-btn{width:40px;height:40px;border-radius:50%;border:1px solid var(--line);background:transparent;color:var(--ink);display:grid;place-items:center;cursor:pointer;flex:none}
+.icon-btn:hover{background:var(--line)}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 20px;border-radius:999px;border:0;font:600 .95rem var(--sans);text-decoration:none;cursor:pointer;transition:transform .2s,box-shadow .2s,background .2s;white-space:nowrap}
+.btn-primary{background:var(--ink);color:var(--bg)}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 12px 30px -12px var(--ink)}
+.btn-lime{background:var(--accent-2);color:var(--accent-ink)}
+.btn-lime:hover{transform:translateY(-2px);box-shadow:0 12px 30px -10px var(--accent-2)}
+.btn-ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.btn-ghost:hover{background:var(--line)}
+.menu-btn{display:none}
+
+/* hero */
+.hero{padding:clamp(64px,12vw,140px) 0 64px;position:relative}
+.pill{display:inline-flex;align-items:center;gap:10px;padding:6px 14px 6px 6px;border:1px solid var(--line);border-radius:999px;background:var(--surface);backdrop-filter:blur(10px);font-size:.85rem;color:var(--ink-2)}
+.pill b{background:var(--accent);color:#fff;padding:3px 10px;border-radius:999px;font-weight:600;font-size:.75rem}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 0 var(--accent);animation:pulse 2s infinite}
+@keyframes pulse{70%{box-shadow:0 0 0 10px transparent}100%{box-shadow:0 0 0 0 transparent}}
+h1{font-size:clamp(2.8rem,8.4vw,7.2rem);line-height:.95;letter-spacing:-.045em;font-weight:600;margin:28px 0 28px;max-width:14ch}
+h1 .serif{letter-spacing:-.02em;color:var(--accent)}
+.hero-lede{font-size:clamp(1.05rem,1.6vw,1.3rem);color:var(--ink-2);max-width:56ch}
+.hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:36px}
+.hero-orb{position:absolute;right:-40px;top:80px;width:min(460px,42vw);aspect-ratio:1;pointer-events:none}
+.hero-orb svg{width:100%;height:100%;animation:spin 60s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* marquee */
+.marquee{border-block:1px solid var(--line);overflow:hidden;padding:18px 0;margin-top:40px;mask-image:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent)}
+.marquee-track{display:flex;gap:48px;width:max-content;animation:scroll 40s linear infinite}
+.marquee-track span{font-family:var(--serif);font-size:clamp(1.6rem,3vw,2.4rem);white-space:nowrap;color:var(--ink-2)}
+.marquee-track span::after{content:"✦";margin-left:48px;color:var(--accent);font-size:.6em;vertical-align:middle}
+@keyframes scroll{to{transform:translateX(-50%)}}
+
+/* sections */
+section{padding:clamp(72px,10vw,128px) 0}
+.eyebrow{display:flex;align-items:center;gap:10px;color:var(--accent);margin-bottom:18px}
+.eyebrow::before{content:"";width:28px;height:1px;background:currentColor}
+h2{font-size:clamp(2rem,5vw,3.8rem);line-height:1;letter-spacing:-.035em;font-weight:600;max-width:18ch}
+h2 .serif{color:var(--accent);letter-spacing:-.01em}
+.section-head{display:flex;justify-content:space-between;align-items:end;gap:32px;flex-wrap:wrap;margin-bottom:48px}
+.section-head p{color:var(--ink-2);max-width:44ch}
+
+/* bento */
+.bento{display:grid;grid-template-columns:repeat(6,1fr);gap:16px}
+.card{position:relative;border:1px solid var(--line);border-radius:var(--radius);background:var(--surface);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);padding:28px;box-shadow:var(--shadow);overflow:hidden;transition:transform .35s cubic-bezier(.2,.8,.2,1),border-color .35s}
+.card:hover{transform:translateY(-4px);border-color:color-mix(in srgb,var(--accent) 40%,var(--line))}
+.card h3{font-size:1.5rem;letter-spacing:-.02em;font-weight:600;margin:14px 0 10px}
+.card p{color:var(--ink-2);font-size:.98rem}
+.card .tag{display:inline-block;padding:4px 10px;border-radius:999px;border:1px solid var(--line)}
+.card ul{list-style:none;margin-top:18px;display:grid;gap:8px}
+.card li{display:flex;gap:10px;font-size:.95rem;color:var(--ink-2)}
+.card li::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--accent);margin-top:.6em;flex:none}
+.c-mspo{grid-column:span 3;grid-row:span 2;background:linear-gradient(160deg,color-mix(in srgb,var(--accent) 22%,var(--surface-solid)),var(--surface-solid) 70%)}
+.c-mspo .big{font-family:var(--serif);font-size:clamp(4rem,9vw,7.5rem);line-height:.9;letter-spacing:-.03em;margin-top:22px;color:var(--accent)}
+.c-rspo{grid-column:span 3}
+.c-scc{grid-column:span 3}
+.c-iscc{grid-column:span 2;background:var(--ink);color:var(--bg)}
+.c-iscc p,.c-iscc li{color:color-mix(in srgb,var(--bg) 75%,transparent)}
+.c-iscc .tag{border-color:color-mix(in srgb,var(--bg) 25%,transparent)}
+.c-scope{grid-column:span 4;display:grid;grid-template-columns:1fr auto;gap:24px;align-items:center}
+.globe{width:140px;height:140px}
+.card-num{position:absolute;right:24px;top:22px;color:var(--ink-3)}
+
+/* verify */
+.verify{display:grid;grid-template-columns:1.1fr 1fr;gap:16px}
+.verify>*,.contact>*,.faq>*,.bento>*{min-width:0}
+.verify-panel{border:1px solid var(--line);border-radius:var(--radius);background:var(--surface-solid);padding:clamp(24px,4vw,40px);box-shadow:var(--shadow)}
+.verify-panel label{display:block;font-weight:500;margin-bottom:10px}
+.field{display:flex;gap:8px;padding:6px;border:1px solid var(--line);border-radius:999px;background:var(--bg)}
+.field input{flex:1;min-width:0;border:0;background:transparent;padding:10px 14px;font:500 1rem var(--mono);color:var(--ink);outline:none}
+.field:focus-within{border-color:var(--accent);box-shadow:0 0 0 4px color-mix(in srgb,var(--accent) 18%,transparent)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.chip{padding:6px 12px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--ink-2);font:500 .8rem var(--mono);cursor:pointer}
+.chip:hover{border-color:var(--accent);color:var(--ink)}
+.result{margin-top:24px;border-radius:var(--radius-sm);border:1px dashed var(--line);padding:20px;min-height:140px;display:grid;place-items:center;color:var(--ink-3);text-align:center}
+.result.ok{border-style:solid;border-color:color-mix(in srgb,var(--accent) 50%,transparent);background:color-mix(in srgb,var(--accent) 8%,transparent);place-items:stretch;text-align:left;color:var(--ink)}
+.result.bad{border-style:solid;border-color:color-mix(in srgb,var(--warm) 60%,transparent);background:color-mix(in srgb,var(--warm) 10%,transparent);color:var(--ink)}
+.result dl{display:grid;grid-template-columns:auto 1fr;gap:6px 18px;font-size:.93rem}
+.result dt{color:var(--ink-3)}
+.status{display:inline-flex;align-items:center;gap:8px;font-weight:600;color:var(--accent);margin-bottom:12px}
+.demo-note{margin-top:16px;font-size:.8rem;color:var(--ink-3)}
+.verify-side{border-radius:var(--radius);padding:clamp(24px,4vw,40px);background:var(--accent-2);color:var(--accent-ink);display:flex;flex-direction:column;justify-content:space-between;gap:28px;position:relative;overflow:hidden}
+.verify-side h3{font-size:clamp(1.8rem,3.4vw,2.6rem);line-height:1;letter-spacing:-.03em;font-weight:600}
+.verify-side p{max-width:36ch;opacity:.8}
+.qr{width:120px;height:120px;border-radius:18px;background:var(--accent-ink);padding:12px}
+
+/* process */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;counter-reset:s}
+.step{border-top:1px solid var(--line);padding-top:24px;position:relative}
+.step::before{counter-increment:s;content:"0" counter(s);font-family:var(--mono);font-size:.8rem;color:var(--accent)}
+.step h3{font-size:1.25rem;letter-spacing:-.02em;margin:14px 0 8px;font-weight:600}
+.step p{color:var(--ink-2);font-size:.95rem}
+.step .bar{position:absolute;top:-1px;left:0;height:2px;width:0;background:var(--accent);transition:width 1.2s cubic-bezier(.2,.8,.2,1)}
+.step.in .bar{width:100%}
+
+/* pillars */
+.pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.pillar{border-radius:var(--radius);padding:32px;border:1px solid var(--line);background:var(--surface);backdrop-filter:blur(16px);min-height:280px;display:flex;flex-direction:column;justify-content:space-between}
+.pillar .serif{font-size:clamp(2.4rem,4vw,3.4rem);line-height:1;color:var(--accent)}
+.pillar p{color:var(--ink-2)}
+
+/* mission */
+.mission{border-radius:calc(var(--radius) + 8px);background:var(--ink);color:var(--bg);padding:clamp(40px,7vw,96px);position:relative;overflow:hidden}
+.mission blockquote{font-family:var(--serif);font-size:clamp(1.8rem,4.4vw,3.6rem);line-height:1.08;letter-spacing:-.015em;max-width:24ch;position:relative}
+.mission blockquote em{color:var(--accent-2)}
+.mission .mono{color:color-mix(in srgb,var(--bg) 60%,transparent);margin-bottom:28px}
+.mission::after{content:"";position:absolute;right:-120px;bottom:-120px;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle,var(--accent) 0%,transparent 65%);opacity:.45}
+.values{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin-top:56px;position:relative}
+.values div{border-top:1px solid color-mix(in srgb,var(--bg) 20%,transparent);padding-top:16px}
+.values b{display:block;font-weight:600;margin-bottom:6px}
+.values span{color:color-mix(in srgb,var(--bg) 65%,transparent);font-size:.93rem}
+
+/* faq */
+.faq{display:grid;grid-template-columns:1fr 1.4fr;gap:48px}
+details{border-bottom:1px solid var(--line);padding:22px 0}
+summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:16px;font-weight:600;font-size:1.1rem;letter-spacing:-.01em}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-family:var(--mono);color:var(--accent);transition:transform .3s;flex:none}
+details[open] summary::after{transform:rotate(45deg)}
+details p{color:var(--ink-2);margin-top:12px;max-width:60ch}
+
+/* contact */
+.contact{display:grid;grid-template-columns:1.3fr 1fr;gap:16px}
+.contact-card{border-radius:var(--radius);border:1px solid var(--line);background:var(--surface-solid);padding:clamp(24px,4vw,40px);box-shadow:var(--shadow)}
+.contact-card h2{margin-bottom:24px}
+form{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+form .full{grid-column:1/-1}
+.input{width:100%;padding:14px 16px;border-radius:var(--radius-sm);border:1px solid var(--line);background:var(--bg);color:var(--ink);font:inherit;font-size:.95rem;outline:none}
+.input:focus{border-color:var(--accent);box-shadow:0 0 0 4px color-mix(in srgb,var(--accent) 18%,transparent)}
+textarea.input{min-height:120px;resize:vertical}
+.info{display:grid;gap:22px;align-content:start}
+.info .mono{color:var(--ink-3);margin-bottom:6px}
+.info a{text-decoration:none;border-bottom:1px solid var(--line)}
+.info a:hover{border-color:var(--accent)}
+.form-msg{grid-column:1/-1;font-size:.9rem;color:var(--accent);min-height:1.4em}
+
+footer{padding:48px 0 40px;border-top:1px solid var(--line);margin-top:40px;color:var(--ink-3);font-size:.9rem}
+.foot{display:flex;flex-wrap:wrap;justify-content:space-between;gap:24px;align-items:end}
+.foot-big{font-family:var(--serif);font-size:clamp(3rem,12vw,10rem);line-height:.85;letter-spacing:-.03em;color:var(--ink);opacity:.9;margin-bottom:40px}
+
+/* reveal */
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .9s cubic-bezier(.2,.8,.2,1),transform .9s cubic-bezier(.2,.8,.2,1)}
+.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .reveal{opacity:1;transform:none}
+  html{scroll-behavior:auto}
+}
+
+/* responsive */
+@media (max-width:980px){
+  .hero-orb{opacity:.35;right:-120px}
+  .bento{grid-template-columns:1fr 1fr}
+  .c-mspo,.c-rspo,.c-scc,.c-iscc,.c-scope{grid-column:span 2;grid-row:auto}
+  .verify,.contact,.faq{grid-template-columns:1fr}
+  .steps{grid-template-columns:1fr 1fr}
+  .pillars{grid-template-columns:1fr}
+  .values{grid-template-columns:1fr 1fr}
+}
+@media (max-width:760px){
+  .nav-links{display:none;position:absolute;top:calc(100% + 8px);left:0;right:0;flex-direction:column;padding:10px;border:1px solid var(--line);border-radius:24px;background:var(--surface-solid);box-shadow:var(--shadow)}
+  .nav-links.open{display:flex}
+  .nav-links a{padding:14px 16px}
+  .menu-btn{display:grid;margin-left:auto}
+  .nav .btn-lime{display:none}
+  .steps,.values,form{grid-template-columns:1fr}
+  .c-scope{grid-template-columns:1fr}
+  .globe{width:100px;height:100px}
+  .hero-orb{display:none}
+}
+</style>
+</head>
+<body>
+<div class="mesh" aria-hidden="true"><span></span><span></span><span></span></div>
+<div class="grain" aria-hidden="true"></div>
+
+<header class="wrap nav">
+  <nav class="nav-inner" aria-label="Primary">
+    <a href="#top" class="brand" aria-label="Global Gateway Certifications home">
+      <svg class="brand-mark" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+        <circle cx="16" cy="16" r="15" stroke="currentColor" stroke-width="1.5"/>
+        <path d="M16 1c4.5 4 6.5 9 6.5 15S20.5 27 16 31M16 1c-4.5 4-6.5 9-6.5 15S11.5 27 16 31M1 16h30" stroke="currentColor" stroke-width="1.2" opacity=".5"/>
+        <path d="M10 16.5l4 4 8-9" stroke="var(--accent)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <span>GGC</span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#schemes">Schemes</a></li>
+      <li><a href="#verify">Verify</a></li>
+      <li><a href="#process">Process</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="icon-btn" id="themeBtn" aria-label="Toggle colour theme">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+    </button>
+    <button class="icon-btn menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 8h16M4 16h16"/></svg>
+    </button>
+    <a href="#contact" class="btn btn-lime">Request a quote</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero wrap">
+    <div class="hero-orb" aria-hidden="true">
+      <svg viewBox="0 0 400 400" fill="none">
+        <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="var(--accent)"/><stop offset="1" stop-color="var(--accent-2)"/></linearGradient></defs>
+        <circle cx="200" cy="200" r="190" stroke="url(#g)" stroke-width="1" stroke-dasharray="2 8"/>
+        <circle cx="200" cy="200" r="150" stroke="var(--line)"/>
+        <ellipse cx="200" cy="200" rx="190" ry="70" stroke="url(#g)" opacity=".6"/>
+        <ellipse cx="200" cy="200" rx="70" ry="190" stroke="url(#g)" opacity=".6"/>
+        <ellipse cx="200" cy="200" rx="190" ry="70" stroke="url(#g)" opacity=".35" transform="rotate(60 200 200)"/>
+        <ellipse cx="200" cy="200" rx="190" ry="70" stroke="url(#g)" opacity=".35" transform="rotate(-60 200 200)"/>
+        <circle cx="390" cy="200" r="6" fill="var(--accent-2)"/><circle cx="200" cy="10" r="4" fill="var(--accent)"/>
+      </svg>
+    </div>
+    <div class="reveal">
+      <span class="pill"><b>MSPO</b><span class="dot"></span> Accredited by Department of Standards Malaysia</span>
+    </div>
+    <h1 class="reveal">Trust, <em class="serif">verified</em> at the source.</h1>
+    <p class="hero-lede reveal">Global Gateway Certifications is an independent third-party assessment body in Malaysia. We audit and certify palm oil producers, mills and supply chains against MSPO, RSPO and ISCC sustainability standards.</p>
+    <div class="hero-cta reveal">
+      <a href="#contact" class="btn btn-primary">Start certification
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <a href="#verify" class="btn btn-ghost">Verify a certificate</a>
+    </div>
+  </section>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Malaysian Sustainable Palm Oil</span><span>RSPO Principles &amp; Criteria</span><span>RSPO Supply Chain Certification</span><span>ISCC</span><span>Social · Environment · Safety</span>
+      <span>Malaysian Sustainable Palm Oil</span><span>RSPO Principles &amp; Criteria</span><span>RSPO Supply Chain Certification</span><span>ISCC</span><span>Social · Environment · Safety</span>
+    </div>
+  </div>
+
+  <section id="schemes" class="wrap">
+    <div class="section-head reveal">
+      <div>
+        <p class="eyebrow mono">Certification schemes</p>
+        <h2>One gateway. <em class="serif">Every</em> standard you need.</h2>
+      </div>
+      <p>A single audit partner for plantations, smallholders, mills, refineries and traders, from the first gap assessment to the certificate and every surveillance audit after it.</p>
+    </div>
+
+    <div class="bento">
+      <article class="card c-mspo reveal">
+        <span class="card-num mono">01</span>
+        <span class="tag mono">National · Mandatory</span>
+        <div class="big">MSPO</div>
+        <h3>Malaysian Sustainable Palm Oil</h3>
+        <p>Malaysia's national standard for sustainable oil palm management. GGC is accredited by the Department of Standards Malaysia to certify against it.</p>
+        <ul>
+          <li>Plantations and organised smallholders</li>
+          <li>Independent smallholders</li>
+          <li>Palm oil mills and supply chain</li>
+        </ul>
+      </article>
+      <article class="card c-rspo reveal">
+        <span class="card-num mono">02</span>
+        <span class="tag mono">Global · Voluntary</span>
+        <h3>RSPO Principles &amp; Criteria</h3>
+        <p>Certification of growers and mills against the Roundtable on Sustainable Palm Oil's environmental and social criteria.</p>
+      </article>
+      <article class="card c-scc reveal">
+        <span class="card-num mono">03</span>
+        <span class="tag mono">Global · Chain of custody</span>
+        <h3>RSPO Supply Chain</h3>
+        <p>Traceability for certified palm oil from mill to market, covering Identity Preserved, Segregated and Mass Balance models.</p>
+      </article>
+      <article class="card c-iscc reveal">
+        <span class="card-num mono" style="color:inherit;opacity:.5">04</span>
+        <span class="tag mono">Biomass · Bioenergy</span>
+        <h3>ISCC</h3>
+        <p>International Sustainability &amp; Carbon Certification for deforestation-free, traceable and lower-emission supply chains.</p>
+      </article>
+      <article class="card c-scope reveal">
+        <div>
+          <span class="tag mono">Geographic scope</span>
+          <h3>Headquartered in Selangor. Auditing worldwide.</h3>
+          <p>Our RSPO accreditation covers operations around the world, excluding the USA and China.</p>
+        </div>
+        <svg class="globe" viewBox="0 0 100 100" fill="none" aria-hidden="true">
+          <circle cx="50" cy="50" r="46" stroke="var(--accent)" stroke-width="1.5"/>
+          <ellipse cx="50" cy="50" rx="20" ry="46" stroke="var(--ink-3)"/>
+          <ellipse cx="50" cy="50" rx="46" ry="16" stroke="var(--ink-3)"/>
+          <path d="M4 50h92M50 4v92" stroke="var(--ink-3)" opacity=".5"/>
+          <circle cx="72" cy="58" r="5" fill="var(--accent-2)" stroke="var(--accent)" stroke-width="1.5"><animate attributeName="r" values="4;7;4" dur="2.4s" repeatCount="indefinite"/></circle>
+        </svg>
+      </article>
+    </div>
+  </section>
+
+  <section id="verify" class="wrap">
+    <div class="section-head reveal">
+      <div>
+        <p class="eyebrow mono">Certificate lookup</p>
+        <h2>Check a claim in <em class="serif">seconds</em>.</h2>
+      </div>
+      <p>Buyers, regulators and communities can confirm whether a certificate issued by GGC is valid, suspended or expired.</p>
+    </div>
+    <div class="verify">
+      <div class="verify-panel reveal">
+        <label for="certInput">Certificate number</label>
+        <form class="field" id="verifyForm" style="display:flex" novalidate>
+          <input id="certInput" placeholder="e.g. GGC-MSPO-0001" autocomplete="off" spellcheck="false">
+          <button class="btn btn-primary" type="submit">Verify</button>
+        </form>
+        <div class="chips" aria-label="Try a sample">
+          <button class="chip" data-v="GGC-MSPO-0001">GGC-MSPO-0001</button>
+          <button class="chip" data-v="GGC-RSPO-SCC-0002">GGC-RSPO-SCC-0002</button>
+          <button class="chip" data-v="GGC-ISCC-0003">GGC-ISCC-0003</button>
+        </div>
+        <div class="result" id="result" aria-live="polite">Enter a certificate number to see its status.</div>
+        <p class="demo-note">Prototype: this lookup uses sample records only. In production it would query GGC's certificate register.</p>
+      </div>
+      <aside class="verify-side reveal">
+        <div>
+          <p class="mono" style="opacity:.7;margin-bottom:14px">Coming next</p>
+          <h3>Scan the QR code on a certificate to verify it.</h3>
+        </div>
+        <p>Each certificate can carry a QR code that links straight to its live record. Paper copies can't be forged or left in use after they expire.</p>
+        <svg class="qr" viewBox="0 0 21 21" aria-hidden="true" shape-rendering="crispEdges">
+          <g fill="var(--accent-2)">
+            <path d="M0 0h7v7H0zM1 1v5h5V1zM2 2h3v3H2zM14 0h7v7h-7zM15 1v5h5V1zM16 2h3v3h-3zM0 14h7v7H0zM1 15v5h5v-5zM2 16h3v3H2z" fill-rule="evenodd"/>
+            <path d="M8 0h1v2H8zM10 1h2v1h-2zM9 3h2v2H9zM12 4h1v3h-1zM8 6h1v2H8zM10 7h3v1h-3zM0 8h2v1H0zM3 8h3v1H3zM14 8h2v2h-2zM17 8h4v1h-4zM8 9h2v2H8zM11 10h2v1h-2zM1 10h2v2H1zM4 11h3v1H4zM18 10h2v2h-2zM13 12h4v1h-4zM8 12h1v3H8zM10 13h2v2h-2zM15 14h2v2h-2zM19 13h2v1h-2zM13 16h1v2h-1zM18 16h3v1h-3zM9 17h3v1H9zM15 18h2v3h-2zM8 19h2v2H8zM11 19h2v1h-2zM18 19h1v2h-1zM20 18h1v1h-1z"/>
+          </g>
+        </svg>
+      </aside>
+    </div>
+  </section>
+
+  <section id="process" class="wrap">
+    <div class="section-head reveal">
+      <div>
+        <p class="eyebrow mono">How certification works</p>
+        <h2>From application to <em class="serif">certificate</em>.</h2>
+      </div>
+      <p>A clear four-stage path with named auditors, fixed milestones and no surprises.</p>
+    </div>
+    <div class="steps">
+      <div class="step reveal"><span class="bar"></span><h3>Application &amp; quote</h3><p>Tell us your scheme, sites and supply chain model. We define the audit scope and send a transparent quotation.</p></div>
+      <div class="step reveal"><span class="bar"></span><h3>Stage 1 · Readiness</h3><p>Document review and site readiness check to find gaps before the main audit.</p></div>
+      <div class="step reveal"><span class="bar"></span><h3>Stage 2 · Assessment</h3><p>On-site audit, including field inspection, stakeholder consultation, worker interviews and evidence review.</p></div>
+      <div class="step reveal"><span class="bar"></span><h3>Certification &amp; surveillance</h3><p>After any non-conformities are closed, an independent reviewer makes the certification decision. Annual surveillance audits keep the certificate valid.</p></div>
+    </div>
+  </section>
+
+  <section class="wrap" aria-labelledby="pillars-h">
+    <div class="section-head reveal">
+      <div>
+        <p class="eyebrow mono">What we assess</p>
+        <h2 id="pillars-h">Three pillars of <em class="serif">sustainability</em>.</h2>
+      </div>
+    </div>
+    <div class="pillars">
+      <div class="pillar reveal"><span class="serif">Social</span><p>Labour rights, fair wages, community engagement, free, prior and informed consent (FPIC), and the protection of smallholders and workers.</p></div>
+      <div class="pillar reveal"><span class="serif">Environment</span><p>No deforestation, protection of high-conservation-value (HCV) areas and peatland, greenhouse gas reduction, and responsible water and chemical management.</p></div>
+      <div class="pillar reveal"><span class="serif">Safety</span><p>Occupational health and safety systems, safe handling of agrochemicals, and emergency preparedness across every operating unit.</p></div>
+    </div>
+  </section>
+
+  <section id="about" class="wrap">
+    <div class="mission reveal">
+      <p class="mono">Our mission</p>
+      <blockquote>To collaboratively maintain <em>high standards</em> in sustainability of social, environment and safety, meeting the certification needs of business.</blockquote>
+      <div class="values">
+        <div><b>Employees</b><span>A productive, fulfilling and safe place to work.</span></div>
+        <div><b>Customers</b><span>Legendary service, every audit.</span></div>
+        <div><b>Shareholders</b><span>Enhanced, lasting value.</span></div>
+        <div><b>Stakeholders</b><span>Mutually beneficial outcomes for everyone.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap">
+    <div class="faq">
+      <div class="reveal">
+        <p class="eyebrow mono">FAQ</p>
+        <h2>Questions, <em class="serif">answered</em>.</h2>
+      </div>
+      <div class="reveal">
+        <details open><summary>Is MSPO certification mandatory in Malaysia?</summary><p>Yes. MSPO certification is mandatory for oil palm growers and processors in Malaysia. GGC is accredited by the Department of Standards Malaysia to carry out MSPO audits.</p></details>
+        <details><summary>Can we combine MSPO and RSPO audits?</summary><p>Where scheme rules allow it, we coordinate combined or back-to-back audits, so you face less disruption and pay less than with separate audit teams.</p></details>
+        <details><summary>How long does certification take?</summary><p>It depends on your scope, number of sites and readiness. We give you a milestone plan with your quotation so you know every date in advance.</p></details>
+        <details><summary>How do stakeholders raise a concern?</summary><p>Anyone can submit comments on an upcoming audit, or a complaint, through the contact form below. Every submission is logged and handled impartially.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="wrap">
+    <div class="contact">
+      <div class="contact-card reveal">
+        <p class="eyebrow mono">Get in touch</p>
+        <h2>Let's certify <em class="serif">what matters</em>.</h2>
+        <form id="contactForm" novalidate>
+          <input class="input" name="name" placeholder="Full name" required aria-label="Full name">
+          <input class="input" name="company" placeholder="Company" aria-label="Company">
+          <input class="input full" type="email" name="email" placeholder="Work email" required aria-label="Work email">
+          <select class="input full" name="scheme" aria-label="Scheme of interest">
+            <option>MSPO</option><option>RSPO P&amp;C</option><option>RSPO Supply Chain</option><option>ISCC</option><option>Stakeholder comment / complaint</option>
+          </select>
+          <textarea class="input full" name="msg" placeholder="Tell us about your operation (sites, hectares, mill capacity…)" aria-label="Message"></textarea>
+          <button class="btn btn-primary full" type="submit" style="justify-content:center">Send enquiry</button>
+          <p class="form-msg" id="formMsg" aria-live="polite"></p>
+        </form>
+      </div>
+      <aside class="contact-card info reveal">
+        <div><p class="mono">Head office</p><address style="font-style:normal">No. 10, Jalan Rasmi 7,<br>Taman Rasmi Jaya,<br>68000 Ampang, Selangor Darul Ehsan,<br>Malaysia</address></div>
+        <div><p class="mono">Phone</p><a href="tel:+60342562689">+60 3 4256 2689</a></div>
+        <div><p class="mono">Email</p><a href="mailto:admin@ggc.my">admin@ggc.my</a></div>
+        <div><p class="mono">Hours</p><span>Mon – Fri · 9:00 – 18:00 MYT</span></div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap">
+  <div class="foot-big" aria-hidden="true">Global Gateway<br><em>Certifications</em></div>
+  <div class="foot">
+    <span>© <span id="yr"></span> Global Gateway Certifications Sdn Bhd</span>
+    <span class="mono">MSPO · RSPO · ISCC</span>
+  </div>
+</footer>
+
+<script>
+(() => {
+  const root = document.documentElement;
+  const get = k => { try { return localStorage.getItem(k) } catch { return null } };
+  const set = (k, v) => { try { localStorage.setItem(k, v) } catch {} };
+  const saved = get('ggc-theme'); if (saved) root.dataset.theme = saved;
+  document.getElementById('themeBtn').addEventListener('click', () => {
+    const dark = root.dataset.theme ? root.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+    root.dataset.theme = dark ? 'light' : 'dark'; set('ggc-theme', root.dataset.theme);
+  });
+
+  const menuBtn = document.getElementById('menuBtn'), links = document.getElementById('navLinks');
+  menuBtn.addEventListener('click', () => { const o = links.classList.toggle('open'); menuBtn.setAttribute('aria-expanded', o) });
+  links.addEventListener('click', e => { if (e.target.tagName === 'A') { links.classList.remove('open'); menuBtn.setAttribute('aria-expanded', false) } });
+
+  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target) } }), { threshold: .15 });
+  document.querySelectorAll('.reveal').forEach((el, i) => { el.style.transitionDelay = (i % 4) * 70 + 'ms'; io.observe(el) });
+
+  // Sample records for the prototype lookup only.
+  const records = {
+    'GGC-MSPO-0001': { holder: 'Sample Plantation Sdn Bhd', scheme: 'MSPO Part 3 (Oil palm management)', status: 'Valid', expires: '2031-03-14' },
+    'GGC-RSPO-SCC-0002': { holder: 'Sample Refinery Sdn Bhd', scheme: 'RSPO Supply Chain · Mass Balance', status: 'Valid', expires: '2030-11-02' },
+    'GGC-ISCC-0003': { holder: 'Sample Mill Sdn Bhd', scheme: 'ISCC EU', status: 'Expired', expires: '2029-06-30' }
+  };
+  const input = document.getElementById('certInput'), out = document.getElementById('result');
+  const esc = s => s.replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  function verify() {
+    const id = input.value.trim().toUpperCase();
+    out.className = 'result';
+    if (!id) { out.textContent = 'Enter a certificate number to see its status.'; return }
+    const r = records[id];
+    if (!r) { out.className = 'result bad'; out.innerHTML = `No certificate found for <b>${esc(id)}</b>. Check the number or contact us.`; return }
+    const ok = r.status === 'Valid';
+    out.className = 'result ' + (ok ? 'ok' : 'bad');
+    out.innerHTML = `<div><div class="status" style="${ok ? '' : 'color:var(--warm)'}">${ok ? '●' : '○'} ${r.status}</div>
+      <dl><dt>Certificate</dt><dd class="mono" style="text-transform:none">${id}</dd><dt>Holder</dt><dd>${r.holder}</dd><dt>Scheme</dt><dd>${r.scheme}</dd><dt>${ok ? 'Expires' : 'Expired'}</dt><dd>${r.expires}</dd></dl></div>`;
+  }
+  document.getElementById('verifyForm').addEventListener('submit', e => { e.preventDefault(); verify() });
+  document.querySelectorAll('.chip').forEach(c => c.addEventListener('click', () => { input.value = c.dataset.v; verify() }));
+
+  document.getElementById('contactForm').addEventListener('submit', e => {
+    e.preventDefault();
+    const f = e.target, msg = document.getElementById('formMsg');
+    if (!f.name.value.trim() || !/^\S+@\S+\.\S+$/.test(f.email.value)) { msg.style.color = 'var(--warm)'; msg.textContent = 'Please add your name and a valid email.'; return }
+    msg.style.color = ''; msg.textContent = 'Thanks! This prototype does not send yet. Connect the form to a backend or email service.';
+    f.reset();
+  });
+
+  document.getElementById('yr').textContent = new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
